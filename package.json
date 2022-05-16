@@ -1,0 +1,15 @@
+{
+  "name": "turtl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "jest"
+  },
+  "author": "dominiksedmak@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^28.1.0"
+  }
+}
