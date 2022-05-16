@@ -8,6 +8,8 @@ function* divideRectangleIntoSquares(rectangle) {
         throw new Error("All properties of the rectangle parameter should be integers.")
     }
 
+    rectangle = { ...rectangle }; // copy object to prevent modification of data passed to the function
+
     while (true) {
         if (rectangle.width < 2 || rectangle.height < 2) {
             return;
